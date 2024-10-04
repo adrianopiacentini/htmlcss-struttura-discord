@@ -78,7 +78,7 @@ header {
 
 /* /common */
 
-/* section 1 */
+/* section */
 .section {
     height: 600px;
     display: flex;
@@ -92,9 +92,9 @@ header {
     display: flex;
 }
 
-/* /section 1 */
+/* /section */
 
-/* section 2 */
+/* section reverse */
 .reverse-container {
     width: 60%;
     height: 80%;
@@ -102,4 +102,4 @@ header {
     flex-direction: row-reverse;
 }
 
-/* /section2 */
+/* /section reverse */
