@@ -1,46 +1,90 @@
 /* reset */
 body {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Utilities */
+.white {
+    background-color:white;
+}
+.grey {
+    background-color: #d3d3d3;
+}
+
+/* header */
 header {
-    height:80px;
-    background-color:#add8e6;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.header-container {
-    background-color: #daa520;
-    width:60%;
-    border: 1px black;
-    border-top:dashed;
-    border-bottom:dashed;
-    display:flex;
-    justify-content: space-between;
-}
-
-.logo, .links, .login {
-    padding:10px;
-    border: 1px black;
-    border-left: dashed;
-    border-right:dashed;
-}
-
-.hero {
-    height:500px;
-    background-color: #00008b;
-    display:flex;
+    height: 80px;
+    background-color: #add8e6;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero-image {
-    width:50%;
+.header-container {
+    background-color: #daa520;
+    width: 60%;
+    border: 1px black;
+    border-top: dashed;
+    border-bottom: dashed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,
+.links,
+.login {
+    padding: 10px;
+    border: 1px black;
+    border-left: dashed;
+    border-right: dashed;
+}
+
+/* /header */
+
+/* hero */
+.hero {
+    height: 500px;
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    width: 50%;
     background-color: #ee82ee;
-    height:80%;
+    height: 80%;
     border: 3px dashed black;
 }
+
+/* /hero */
+
+/* common */
+    .img-column {
+        width:60%;
+        border-right: 3px dashed black;
+        background-color: #1e90ff;
+        border: 3px dashed black;
+    }
+    .text-column {
+        width:40%;
+        background-color: #ffc0cb;
+        border: 3px dashed black;
+    }
+ /* /common */
+
+/* section 1 */
+.section1 {
+    height:600px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.section1-container {
+    width:60%;
+    height:80%;
+    display:flex;
+}
+ /* /section 1 */
