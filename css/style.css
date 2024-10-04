@@ -103,3 +103,20 @@ header {
 }
 
 /* /section reverse */
+
+/* summary */
+.summary {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-container {
+    width: 60%;
+    height: 80%;
+    background-color: #228b22;
+    border: 3px dashed black;
+}
+
+/* /summary */
