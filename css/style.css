@@ -1,0 +1,31 @@
+/* reset */
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header-background {
+    height:80px;
+    background-color:#add8e6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.header-container {
+    background-color: #daa520;
+    width:60%;
+    border: 1px black;
+    border-top:dashed;
+    border-bottom:dashed;
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo, .links, .login {
+    padding:10px;
+    border: 1px black;
+    border-left: dashed;
+    border-right:dashed;
+}
