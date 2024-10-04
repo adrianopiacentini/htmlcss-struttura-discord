@@ -7,8 +7,9 @@ body {
 
 /* Utilities */
 .white {
-    background-color:white;
+    background-color: white;
 }
+
 .grey {
     background-color: #d3d3d3;
 }
@@ -62,29 +63,43 @@ header {
 /* /hero */
 
 /* common */
-    .img-column {
-        width:60%;
-        border-right: 3px dashed black;
-        background-color: #1e90ff;
-        border: 3px dashed black;
-    }
-    .text-column {
-        width:40%;
-        background-color: #ffc0cb;
-        border: 3px dashed black;
-    }
- /* /common */
+.img-column {
+    width: 60%;
+    border-right: 3px dashed black;
+    background-color: #1e90ff;
+    border: 3px dashed black;
+}
+
+.text-column {
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 3px dashed black;
+}
+
+/* /common */
 
 /* section 1 */
-.section1 {
-    height:600px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.section1-container {
-    width:60%;
-    height:80%;
-    display:flex;
+
+.section-container {
+    width: 60%;
+    height: 80%;
+    display: flex;
 }
- /* /section 1 */
+
+/* /section 1 */
+
+/* section 2 */
+.reverse-container {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* /section2 */
